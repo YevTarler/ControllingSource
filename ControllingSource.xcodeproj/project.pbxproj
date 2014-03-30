@@ -125,13 +125,8 @@
 			children = (
 				CC4C8A4918E8C81E0037EEE3 /* YEVAppDelegate.h */,
 				CC4C8A4A18E8C81E0037EEE3 /* YEVAppDelegate.m */,
-				CC4C8A4C18E8C81E0037EEE3 /* Main.storyboard */,
-				CC4C8A5218E8C81E0037EEE3 /* YEVMasterViewController.h */,
-				CC4C8A5318E8C81E0037EEE3 /* YEVMasterViewController.m */,
-				CC4C8A5518E8C81E0037EEE3 /* YEVDetailViewController.h */,
-				CC4C8A5618E8C81E0037EEE3 /* YEVDetailViewController.m */,
-				CC4C8A5818E8C81E0037EEE3 /* Images.xcassets */,
-				CC4C8A4F18E8C81E0037EEE3 /* ControllingSource.xcdatamodeld */,
+				CC4C8A7718E8D1860037EEE3 /* Resources */,
+				CC4C8A7618E8D14D0037EEE3 /* ViewControllers */,
 				CC4C8A4118E8C81E0037EEE3 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -164,6 +159,27 @@
 				CC4C8A6918E8C81E0037EEE3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4C8A7618E8D14D0037EEE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C8A5218E8C81E0037EEE3 /* YEVMasterViewController.h */,
+				CC4C8A5318E8C81E0037EEE3 /* YEVMasterViewController.m */,
+				CC4C8A5518E8C81E0037EEE3 /* YEVDetailViewController.h */,
+				CC4C8A5618E8C81E0037EEE3 /* YEVDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CC4C8A7718E8D1860037EEE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C8A5818E8C81E0037EEE3 /* Images.xcassets */,
+				CC4C8A4F18E8C81E0037EEE3 /* ControllingSource.xcdatamodeld */,
+				CC4C8A4C18E8C81E0037EEE3 /* Main.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
